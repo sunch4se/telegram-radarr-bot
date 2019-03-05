@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM arm64v8/node:alpine
 MAINTAINER itsmegb
 
 RUN apk add --update git
