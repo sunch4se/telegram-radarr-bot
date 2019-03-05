@@ -7,7 +7,7 @@ RUN [ "cross-build-start" ]
 RUN apk add --update git
 
 RUN mkdir /app && \
-    git clone https://github.com/itsmegb/telegram-radarr-bot.git /app
+    git clone https://github.com/sunch4se/telegram-radarr-bot.git /app
 
 WORKDIR /app
 
